@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: pink;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input-form label,
+.input-form input,
+.input-form button,
+.input-form p {
+  margin: 10px 0px;
+}
+
+.input-form input,
+.input-form button {
+  padding: 5px;
+  text-align: center;
+}
+
+.input-form button {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+.input-form button:hover {
+  cursor: pointer;
+}
+
+.input-form button:active {
+  transform: translateY(3px);
+}
