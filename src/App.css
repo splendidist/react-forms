@@ -27,12 +27,9 @@ body {
 .input-form button {
   padding: 5px;
   text-align: center;
-}
-
-.input-form button {
-  background-color: white;
   border: none;
   border-radius: 20px;
+  background-color: white;
 }
 
 .input-form button:hover {
